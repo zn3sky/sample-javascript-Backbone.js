@@ -14,7 +14,7 @@ $(function() {
 	noteView.render().$el.appendTo($(document.body));
 });
 */
-/*親view動作確認コード
+/*親view動作確認コード*/;
 $(function() {
 	var noteCollection = new App.NoteCollection([{
 		title: "てすと１",
@@ -32,4 +32,4 @@ $(function() {
 	});
 
 	mainContainer.show(noteListView);
-})*/;
+})
